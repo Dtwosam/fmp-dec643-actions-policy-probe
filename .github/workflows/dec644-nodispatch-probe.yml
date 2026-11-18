@@ -1,0 +1,14 @@
+name: dec644-nodispatch-probe
+
+on:
+  workflow_call:
+
+permissions: {}
+
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 1
+    steps:
+      - name: local-noop
+        run: echo dec644-nodispatch-probe
