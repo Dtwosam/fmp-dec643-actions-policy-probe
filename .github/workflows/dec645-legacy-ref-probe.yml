@@ -1,0 +1,14 @@
+name: dec645-legacy-ref-probe
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 1
+    steps:
+      - name: local-noop
+        run: echo dec645-legacy-ref-probe
