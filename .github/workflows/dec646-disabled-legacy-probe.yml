@@ -1,0 +1,14 @@
+name: dec646-disabled-legacy-probe
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 1
+    steps:
+      - name: local-noop
+        run: echo dec646-disabled-legacy-probe
