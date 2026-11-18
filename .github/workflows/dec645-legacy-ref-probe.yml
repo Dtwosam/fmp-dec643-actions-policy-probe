@@ -1,7 +1,7 @@
 name: dec645-legacy-ref-probe
 
 on:
-  workflow_dispatch:
+  workflow_call:
 
 permissions: {}
 
